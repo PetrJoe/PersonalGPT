@@ -1,0 +1,268 @@
+repo_name: PetrJoe/PersonalGPT
+report_id: 75d25ce78f075b26f14f398d1c36af7f
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-10T11:34:00+00:00'
+requested_by: Swarno-Coder
+provider: github
+branch: master
+detected_tools_count: 20
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/PetrJoe/PersonalGPT
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/PetrJoe/PersonalGPT
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/PetrJoe/PersonalGPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: swarno-coder
+  last_updated_on: 2023-06-13 19:25:53.000000000 Z
+- name: Pandoc
+  description: A universal document converter
+  website_url: https://pandoc.org/
+  version: '2.3'
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: File Conversion
+  image_url: https://img.stackshare.io/service/2330/no-img-open-source.png
+  detection_source_url: https://github.com/PetrJoe/PersonalGPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: swarno-coder
+  last_updated_on: 2023-06-13 19:25:53.000000000 Z
+- name: Cohere.com
+  description: Add cutting-edge language processing to any system
+  website_url: https://cohere.com/
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/101884/default_cf6d4a823cb5b37940800efc1e952b6a6c74e32a.png
+  detection_source_url: https://github.com/PetrJoe/PersonalGPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: swarno-coder
+  last_updated_on: 2023-06-21 15:00:10.000000000 Z
+- name: GPT4All
+  description: A free-to-use, locally running, privacy-aware chatbot
+  website_url: https://gpt4all.io/index.html
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: GPT Tools
+  image_url: https://img.stackshare.io/service/109223/default_f477d8a1160a73dc008ccb33efa5d4b9d45baa07.png
+  detection_source_url: https://github.com/PetrJoe/PersonalGPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: swarno-coder
+  last_updated_on: 2023-06-13 19:25:53.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/PetrJoe/PersonalGPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: swarno-coder
+  last_updated_on: 2023-06-13 19:25:53.000000000 Z
+- name: tqdm
+  description: Fast, Extensible Progress Meter
+  package_url: https://pypi.org/project/tqdm
+  version: 4.65.0
+  license: MPL-2.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/PetrJoe/PersonalGPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: swarno-coder
+  last_updated_on: 2023-06-13 19:25:53.000000000 Z
+  vulnerabilities:
+  - name: tqdm CLI arguments injection attack
+    cve_id: CVE-2024-34062
+    cve_url: https://github.com/advisories/GHSA-g7vv-2v7x-gj9p
+    detected_date: May 4
+    severity: low
+    first_patched: 4.66.3
+- name: cohere
+  description: Python SDK for the Cohere API
+  package_url: https://pypi.org/project/cohere
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/PetrJoe/PersonalGPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: swarno-coder
+  last_updated_on: 2023-06-21 15:00:10.000000000 Z
+- name: google
+  description: Python bindings to the Google search engine
+  package_url: https://pypi.org/project/google
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20708/default_e885869a0d29385c2822600e997cabd6d7375b02.png
+  detection_source_url: https://github.com/PetrJoe/PersonalGPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: swarno-coder
+  last_updated_on: 2023-06-13 19:25:53.000000000 Z
+- name: gpt4all
+  description: Python bindings for GPT4All
+  package_url: https://pypi.org/project/gpt4all
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/PetrJoe/PersonalGPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: swarno-coder
+  last_updated_on: 2023-06-13 19:25:53.000000000 Z
+- name: langchain
+  description: Building applications with LLMs through composability
+  package_url: https://pypi.org/project/langchain
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/PetrJoe/PersonalGPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: swarno-coder
+  last_updated_on: 2023-06-13 19:25:53.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/PetrJoe/PersonalGPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: swarno-coder
+  last_updated_on: 2023-06-21 15:00:10.000000000 Z
+- name: pdfminer.six
+  description: PDF parser and analyzer
+  package_url: https://pypi.org/project/pdfminer.six
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20347/default_19b737f8f858a0bc83d9eee02c6d810fabdc8056.png
+  detection_source_url: https://github.com/PetrJoe/PersonalGPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: swarno-coder
+  last_updated_on: 2023-06-13 19:25:53.000000000 Z
+- name: pypandoc
+  description: Thin wrapper for pandoc
+  package_url: https://pypi.org/project/pypandoc
+  version: '1.11'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20206/default_f49d415fc34d42446135e0f46315fb237c002e80.png
+  detection_source_url: https://github.com/PetrJoe/PersonalGPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: swarno-coder
+  last_updated_on: 2023-06-13 19:25:53.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/PetrJoe/PersonalGPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: swarno-coder
+  last_updated_on: 2023-06-13 19:25:53.000000000 Z
+- name: pyttsx3
+  description: Text to Speech
+  package_url: https://pypi.org/project/pyttsx3
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/PetrJoe/PersonalGPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: swarno-coder
+  last_updated_on: 2023-06-13 19:25:53.000000000 Z
+- name: tabulate
+  description: Pretty-print tabular data
+  package_url: https://pypi.org/project/tabulate
+  version: 0.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19864/default_7975a21f3bf03129dc3bc4168cf7cb7ee2cc14cc.png
+  detection_source_url: https://github.com/PetrJoe/PersonalGPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: swarno-coder
+  last_updated_on: 2023-06-13 19:25:53.000000000 Z
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/PetrJoe/PersonalGPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: swarno-coder
+  last_updated_on: 2023-06-13 19:25:53.000000000 Z
+- name: wikipedia
+  description: Wikipedia API for Python
+  package_url: https://pypi.org/project/wikipedia
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/PetrJoe/PersonalGPT/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: swarno-coder
+  last_updated_on: 2023-06-13 19:25:53.000000000 Z
